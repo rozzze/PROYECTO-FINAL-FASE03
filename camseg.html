@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="style.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    </head>
+<body>
+    <nav class = "navbar container">
+        <div class = "left">
+            <ul>
+                <li>SECURITY ICE</li>
+            </ul>
+        </div>
+
+        <div class = "right">
+            <ul>
+                <li class= "nav-link"><a href="index.html"> Inicio</a></li>
+                <li class= "nav-link"><a href="nosotros.html"> Nosotros</a></li>
+                <li class= "nav-link"><a href="#"> Servicio</a>
+                <ul class = "drop-down">
+                  <li><a href="segpv.html">Seguridad Privada</a></li>
+                  <li><a href="segpp.html">Seguridad Personal</a></li>
+                  <li><a href="camseg.html">Camaras de vigilancia</a></li>
+                </ul></li>
+                <li class= "nav-link"><a href="contactanos.html"> Contactanos</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li class="submenu">
+
+                    <img src="imagenes/car.svg" id="img-carrito" alt="">
+
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="header-content container">
+
+        <h1>SERVICIO DE VIGILANCIA</h1>
+        <p>
+            ¡Bienvenido a nuestra tienda de cámaras de seguridad, donde la tranquilidad 
+            se encuentra con la tecnología de vanguardia! En un mundo donde la seguridad es una prioridad, 
+            ofrecemos soluciones de vigilancia de última generación para proteger lo que más valoras.
+        </p>
+
+        <div class="botones">
+            <a href="#" class="btn-1" >Mas informacion</a>
+            <a href="index.html" class="btn-1" >Inicio</a>
+        </div>
+
+        <div class="socials-1">
+            <img src="imagenes/s1.svg" alt="">
+            <img src="imagenes/s2.svg" alt="">
+            <img src="imagenes/s3.svg" alt="">
+        </div>
+
+        <a href="#lista">
+            <img class="arrow" src="imagenes/arrow.svg" alt="">
+        </a>
+
+    </div>
+
+    <section class="recetas container">
+
+        <div class="recetas-1">
+            <h3>Nuestras 4 opciones para usted</h3>
+            <hr>
+            <p>CAMARAS DE SEGURIDAD</p>
+        </div>
+
+        <div class="recetas-2">
+            <h2>Las mejores <br>Camaras</h2>
+        </div>
+
+    </section>
+
+    <section class="platillos container" id="lista">
+
+        <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Camara 1</h3>
+                        <p class="precio"> S/. 200</p>
+                        <img src="imagenes/camara1.png" alt="">
+                        <p>
+                            La Cámara 1 ofrece seguridad básica con resolución HD, 
+                            detección de movimiento y visión nocturna, perfecta para 
+                            uso doméstico.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="1"> Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Camara 2</h3>
+                        <p class="precio"> S/. 300</p>
+                        <img src="imagenes/camara2.png" alt="" height="205px">
+                        <p>
+                            La Cámara 2 brinda imágenes Full HD, panorámica, inclinación, detección 
+                            inteligente de movimiento y fácil integración con hogares inteligentes.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="2"> Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Camara 3</h3>
+                        <p class="precio"> S/. 400</p>
+                        <img src="Imagenes/camara3.png" alt="">
+                        <p>
+                            La Cámara 3 proporciona calidad Ultra HD, detección de movimiento 
+                            personalizable y resistencia a condiciones climáticas, ideal para entornos 
+                            empresariales.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="3"> Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Camara 4</h3>
+                        <p class="precio"> S/. 500</p>
+                        <img src="Imagenes/camara4.png" alt="">
+                        <p>
+                            La Cámara 4 ofrece seguridad de última generación con resolución 4K, visión 
+                            nocturna avanzada, inteligencia artificial y resistencia extrema. La opción 
+                            definitiva para una vigilancia superior.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="4"> Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            
+        </div>
+
+    </section>
+
+    <section class="recetas container">
+
+        <div class="recetas-2">
+            <h2>Las<br>mejores<br> alarmas</h2>
+        </div>
+        <div class="recetas-1">
+            <h3>A continuacion las mejores alarmas </h3>
+            <hr>
+            <p>Alarmas de seguridad</p>
+        </div>
+
+    </section>
+
+    <section class="platillos container" id="lista-2">
+
+        <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Alarma 1</h3>
+                        <p class="precio"> S/. 200</p>
+                        <img src="Imagenes/ala1.png" alt="">
+                        <p class="c2">
+                            La Alarma 1 ofrece una solución de seguridad básica con detección 
+                            de intrusos y notificaciones instantáneas. Fácil de instalar y usar, 
+                            es ideal para proteger espacios residenciales.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="5"> Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Alarma 2</h3>
+                        <p class="precio"> S/. 300</p>
+                        <img src="Imagenes/ala2.png" alt="">
+                        <p class="c2"> 
+                            La Alarma 2 brinda una seguridad más avanzada con detección de movimiento 
+                            ajustable, sirenas potentes y conectividad inteligente para un control 
+                            remoto conveniente. Perfecta para hogares y pequeños negocios.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="6"> Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Alarma 3</h3>
+                        <p class="precio"> S/. 400</p>
+                        <img src="Imagenes/ala3.png" alt="" height="205px">
+                        <p class="c2">
+                            La Alarma 3 proporciona una protección profesional con sensores de alta sensibilidad, 
+                            monitoreo 24/7 y notificaciones personalizadas. Diseñada para entornos comerciales 
+                            y residenciales que buscan una seguridad sólida y confiable.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="7"> Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Alarma 1</h3>
+                        <p class="precio"> S/. 200</p>
+                        <img src="Imagenes/ala1.png" alt="">
+                        <p class="c2">
+                            La Alarma 1 ofrece una solución de seguridad básica con detección de intrusos y 
+                            notificaciones instantáneas. Fácil de instalar y usar, es ideal para proteger 
+                            espacios residenciales.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="8"> Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            
+        </div>
+
+    </section>
+
+    <section class="recetas container">
+
+        <div class="recetas-1">
+            <hr>
+            <p>Contacto</p>
+        </div>
+
+    </section>
+
+            <footer>
+          <div class = "footer-content">
+            <h3>Security Ice</h3>
+            <p>Sitemap Política de Privacidad Aviso Legal Cookies Canal Ético</p>
+            <ul class = "socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+          </div>
+          <div class ="footer-bottom">
+            <p> &copy; copyright 2023 SECURITY ICE </p>
+          </div>
+        </footer>  
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
